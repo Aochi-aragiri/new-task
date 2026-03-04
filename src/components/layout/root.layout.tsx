@@ -4,7 +4,7 @@ import { Aperture } from "lucide-react";
 
 export default function RootLayout() {
   return (
-    <div>
+    <div className="h-screen flex flex-col overflow-hidden">
       <nav className="w-full flex flex-wrap md:flex-nowrap md:justify-around gap-2 p-1 bg-gray-800 text-white justify-around items-center">
         <h2 className="text-xl font-bold flex items-center gap-2">
           <Aperture /> Menu
