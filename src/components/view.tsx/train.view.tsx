@@ -33,6 +33,10 @@ export default function TrainView() {
         </div>
         <p>13:37</p>
       </div>
+      {/* On time */}
+      <p className="text-green-500 font-medium justify-center flex border-b p-1 pb-4 items-center gap-1">
+        <Circle className="fill-current" size={8} /> On time
+      </p>
     </LayoutTrain>
   );
 }
