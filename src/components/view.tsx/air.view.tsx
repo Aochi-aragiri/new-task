@@ -1,5 +1,5 @@
 import Layout from "../layout/layout";
-import { Field, FieldLabel } from "../ui/field";
+import { Field } from "../ui/field";
 import { Progress } from "../ui/progress";
 import { Tabs, TabsList, TabsTrigger } from "../ui/tabs";
 

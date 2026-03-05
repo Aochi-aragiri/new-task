@@ -34,7 +34,11 @@ export default function TrainView() {
         <p>13:37</p>
       </div>
       {/* On time */}
-      <p className="text-green-500 pl-7 pr-7 font-medium justify-center flex border-b p-1 pb-4 items-center gap-1">
+      <p
+        className="text-green-500 ml-14 mr-14 font-medium justify-center flex p-1 pb-5 items-center gap-1 relative
+  after:absolute after:bottom-0 after:left-0 after:right-0 after:h-px
+  after:bg-linear-to-r after:from-transparent after:via-neutral-300 after:to-transparent"
+      >
         <Circle className="fill-current" size={8} /> On time
       </p>
       <div className="flex justify-between pl-7 pr-7 mt-4 text-neutral-600">
