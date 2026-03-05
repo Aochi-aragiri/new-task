@@ -66,7 +66,11 @@ export default function TrainView() {
           </p>
         </div>
         <div className="flex flex-col">
-          <img className="w-28 border rounded-2xl bg-white" src="QR.svg"></img>
+          <img
+            className="w-28 border rounded-2xl bg-white"
+            src="QR.svg"
+            alt="QR code"
+          ></img>
           <div className="text-[11px] pt-1 text-center text-neutral-500">
             Tap to view full QR
           </div>

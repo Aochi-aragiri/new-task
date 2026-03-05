@@ -10,9 +10,7 @@ export default function AirView() {
         <TabsList className="w-full rounded-3xl p-5 pl-0 bg-white border">
           <TabsTrigger
             value="가는 길"
-            className="rounded-3xl p-5 pl-8 pr-8 data-[state=active]:bg-linear-to-b
-data-[state=active]:from-neutral-700
-data-[state=active]:to-black data-[state=active]:text-white"
+            className="rounded-3xl p-5 pl-8 pr-8 data-[state=active]:bg-linear-to-b data-[state=active]:from-neutral-700 data-[state=active]:to-black data-[state=active]:text-white"
           >
             가는 길
           </TabsTrigger>

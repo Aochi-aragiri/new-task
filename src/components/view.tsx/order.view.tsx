@@ -23,7 +23,11 @@ export default function OrderView() {
 
       {/* Order status */}
       <div className="m-10 flex flex-col gap-4 justify-center items-center content-center">
-        <img className="max-w-30" src="order-delivery.jpg"></img>
+        <img
+          className="max-w-30"
+          src="order-delivery.jpg"
+          alt="the delivery man on the bicycle"
+        ></img>
         <div className="flex flex-col text-center">
           <h2 className="font-bold text-xl">Order Status</h2>
           <h1 className="text-neutral-600 text-sm">
@@ -35,7 +39,11 @@ export default function OrderView() {
       {/* Type of order */}
       <Container className="p-3">
         <div className="flex gap-6">
-          <img className="max-w-10 rounded-2xl" src="watch.jpg"></img>
+          <img
+            className="max-w-10 rounded-2xl"
+            src="watch.jpg"
+            alt="your order"
+          ></img>
           <div className="text-xs text-neutral-600 flex flex-col justify-between">
             <p>Watch</p>
             <p className="font-bold text-black">Apple Watch</p>
