@@ -57,11 +57,11 @@ export default function SwapView() {
           </div>
         </div>
       </LayoutSwap>
-      <div className="absolute left-1/2 top-1/2 mt-8 -translate-x-1/2 -translate-y-1/2">
+      <div className="flex justify-center -my-5.25 z-10 relative">
         <Button
           variant="outline"
           size="icon"
-          className="rounded-full bg-white border-4 border-[rgb(246,246,246)] w-10 h-10"
+          className="rounded-full bg-white border-4 border-[rgb(246,246,246)] w-12 h-12"
         >
           <ChevronDown size={20} className="text-neutral-700" />
         </Button>
@@ -94,7 +94,7 @@ export default function SwapView() {
         </div>
       </LayoutSwap>
       <div className="w-95 flex flex-col mx-auto justify-center items-center content-center">
-        <Button className="w-full m-2 p-6 rounded-3xl text-[16px] shadow-lg shadow-black/30 font-medium">
+        <Button className="w-full max-w-sm m-2 p-6 rounded-3xl text-[16px] shadow-lg shadow-black/30 font-medium">
           Swap
         </Button>
         <p className="text-[9px] text-neutral-500 flex gap-1 items-center">
