@@ -13,6 +13,7 @@ import HeadphonesView from "../view.tsx/headphones.view";
 import NikesView from "../view.tsx/nikes.view";
 import CafeLatteView from "../view.tsx/cafe-latte.view";
 import NotFoundView from "../view.tsx/not-found.views";
+import AccountDetailsView from "../view.tsx/account-details.view";
 
 export const router = createBrowserRouter([
   {
@@ -36,7 +37,14 @@ export const router = createBrowserRouter([
         path: "air",
         element: <AirView />,
       },
-      { path: "account", element: <AccountView /> },
+      {
+        path: "account",
+        element: <AccountView />,
+      },
+      {
+        path: "account/details",
+        element: <AccountDetailsView />,
+      },
       { path: "tasks-events", element: <TasksEventsView /> },
       { path: "desserts", element: <DessertsView /> },
       { path: "fast_food", element: <FastFoodView /> },
