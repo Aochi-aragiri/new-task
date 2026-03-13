@@ -89,12 +89,14 @@ export default function AccountView() {
               >
                 <Truck /> New Shipping
               </Button>
-              <Button
-                variant="secondary"
-                className="rounded-3xl text-xs p-5.5 w-33 bg-neutral-200"
-              >
-                <Package2 /> Track Shipping
-              </Button>
+              <Link to="/account/details">
+                <Button
+                  variant="secondary"
+                  className="rounded-3xl text-xs p-5.5 w-33 bg-neutral-200 hover:bg-neutral-700 hover:text-white"
+                >
+                  <Package2 /> Track Shipping
+                </Button>
+              </Link>
             </div>
           </div>
           {/* Search field */}
@@ -116,7 +118,7 @@ export default function AccountView() {
           {/* Current tracking */}
           <h2 className="mt-5 mb-3 font-medium text-sm">Current Tracking</h2>
           <Link to="/account/details">
-            <div className="bg-neutral-100 rounded-3xl p-4">
+            <div className="bg-neutral-100 rounded-3xl p-4 hover:bg-black/10">
               <div className="flex justify-between items-center mb-5">
                 <div className="flex flex-col justify-between gap-1.5">
                   <div className="text-[10px] font-medium text-neutral-800">
