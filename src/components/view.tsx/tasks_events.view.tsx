@@ -62,11 +62,11 @@ export default function TasksEventsView() {
               style={{ minHeight: "64px", borderLeft: "2px dashed #1447e6" }}
             />
             <div className="flex gap-4 items-center text-[12px] text-neutral-500">
-              <div className="text-blue-700 flex items-center gap-0.5">
+              <div className="w-10 text-blue-700 flex items-center gap-0.5">
                 <Circle fill="blue" size={4} />
                 11:39
               </div>
-              <div className=" bg-white rounded-full border-2 -ml-px">
+              <div className=" bg-white rounded-full border-2">
                 <Circle size={16} strokeWidth={3} color="white" />
               </div>
               <div>
@@ -118,7 +118,7 @@ export default function TasksEventsView() {
               <div className=" bg-white rounded-full border-2 -ml-px">
                 <Circle size={16} strokeWidth={3} color="white" />
               </div>
-              <div className="flex gap-4 items-center -mt-2">
+              <div className="flex w-55 justify-between items-center -mt-1">
                 <div>Dinner with Lucca</div>
                 <div className="flex items-center gap-2 p-0.5 pl-1 pr-1 rounded-2xl bg-blue-100 text-blue-700 font-normal">
                   Open in <Calendar1 size={12} />
