@@ -101,7 +101,7 @@ export default function TasksEventsView() {
               style={{ minHeight: "16px", borderLeft: "2px solid #e6e6e6" }}
             />
             <div className="flex gap-4 items-center text-[12px] ">
-              <div className="w-10 text-neutral-500">12:35</div>
+              <div className="w-10 text-neutral-500">15:30</div>
               <div className=" bg-white rounded-full border-2 -ml-px">
                 <Circle size={16} strokeWidth={3} color="white" />
               </div>
