@@ -10,7 +10,7 @@ import {
 
 export default function SwapView() {
   return (
-    <div className="min-h-screen content-center">
+    <div className="m-7 content-center">
       <div className="flex flex-col justify-center items-center m-4">
         <div className="flex items-center gap-8 text-xs font-medium">
           <button className="bg-neutral-200 p-1 pr-2 pl-2 rounded-2xl cursor-pointer">

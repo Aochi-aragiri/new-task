@@ -135,7 +135,7 @@ export default function TasksEventsView() {
           </div>
           <div>
             <div className="flex items-center gap-0.5 bg-neutral-100 p-2 rounded-3xl text-xs">
-              <div className="w-10 text-blue-800 flex items-center gap-0.5">
+              <div className="w-10 text-blue-800 flex items-center content-center gap-1">
                 <Circle fill="blue" size={4} />
                 0:04
               </div>
