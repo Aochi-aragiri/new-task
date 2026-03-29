@@ -14,7 +14,7 @@ export default function IceCreamView() {
       <Sphere size={90} color="#eedca1" top="25%" left="25%" zIndex={0} />
       <Sphere size={150} color="#eedca1" top="10%" right="30%" zIndex={0} />
       <Sphere size={50} color="#e8e0c8" top="50%" right="36%" zIndex={0} />
-      <Sphere size={150} color="#ebce8b" bottom="10%" right="35%" zIndex={30} />
+      <Sphere size={150} color="#ebce8b" bottom="10%" right="35%" zIndex={0} />
       <Sphere size={110} color="#e8e0c0" bottom="5%" right="60%" zIndex={30} />
       <div className="flex justify-center items-center">
         <div className="m-7 w-90 rounded-3xl shadow-2xl z-20 bg-[rgb(250,255,221)] rou">
