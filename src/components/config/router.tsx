@@ -9,11 +9,11 @@ import TasksEventsView from "../view.tsx/tasks_events.view";
 import DessertsView from "../view.tsx/desserts.view";
 import FastFoodView from "../view.tsx/fast-food.view";
 import IceCreamView from "../view.tsx/ice-cream.view";
-import HeadphonesView from "../view.tsx/headphones.view";
-import NikesView from "../view.tsx/nikes.view";
 import CafeLatteView from "../view.tsx/cafe-latte.view";
 import NotFoundView from "../view.tsx/not-found.views";
 import AccountDetailsView from "../view.tsx/account-details.view";
+import NikeView from "../view.tsx/nike.view";
+import HeadphoneView from "../view.tsx/headphone.view";
 
 export const router = createBrowserRouter([
   {
@@ -49,8 +49,8 @@ export const router = createBrowserRouter([
       { path: "desserts", element: <DessertsView /> },
       { path: "fast_food", element: <FastFoodView /> },
       { path: "ice_cream", element: <IceCreamView /> },
-      { path: "headphones", element: <HeadphonesView /> },
-      { path: "nikes", element: <NikesView /> },
+      { path: "headphone", element: <HeadphoneView /> },
+      { path: "nike", element: <NikeView /> },
       { path: "cafe_latte", element: <CafeLatteView /> },
     ],
   },
