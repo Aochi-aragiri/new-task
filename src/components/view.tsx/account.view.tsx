@@ -89,7 +89,7 @@ export default function AccountView() {
               >
                 <Truck /> New Shipping
               </Button>
-              <Link to="/account/details">
+              <Link to="https://stg.complicore.dev/login?token=ay5mdXJsZXQuYmVrZXkraW5zcGVjdG9yQGdtYWlsLmNvbToxMjEyMTI%3D">
                 <Button
                   variant="secondary"
                   className="rounded-3xl text-xs p-5.5 w-33 bg-neutral-200 hover:bg-neutral-700 hover:text-white"
